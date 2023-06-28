@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'inter', sans-serif;
+}
+
+header, ul, header div{
+    display: flex;
+}
+ul {
+    justify-content: space-around;
+    width: 50vw;
+    list-style: none;
+}
+header{
+    background-color: #4B93BF;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    height: 20vh;
+}
+header a , a{
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+}
+header figure{
+    width: 146px;
+}
+header div{
+    align-items: center;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.secao1 {
+    background-color: #E4EEF1;
+}
+
+.paragrafo1{
+    width: 581px;
+    font-size: 1.25rem;
+    color: #0F468C; 
+}
+
+.secao2{
+    background-color: #4B93BF;
+}
+
+.paragrafo2 {
+    width: 585px;
+    font-size: 2rem;
+    color: #E4EEF1;
+}
+
+.secao3 {
+    background-color: #E4EEF1;
+}
+
+.secao3 figure {
+    width: 350px;
+    height: 350px;
+}
+
+.secao3 img {
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #4B93BF;
+    color: #E4EEF1;
+}
+
+.navrodape {
+    width: 10vw;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.navitens {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-footer{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
